@@ -5,7 +5,7 @@ const NewSchema = new mongoose.Schema(
         descSummary:{type:String},
         descDetails:{type:String},
         img:{type:String,require:true},
-        categories:{type: Array},
+        categories:{type: String},
     },
     {timestamps:true}
 )
